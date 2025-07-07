@@ -379,7 +379,7 @@ with col2:
                 st.warning("⚠️ Training 7 days a week is not recommended - your body needs rest days to recover!")
     
     gender = st.selectbox(
-        "👤 Your gender", 
+        "Your gender", 
         ["Male", "Female"],
         help="Select your gender"
     )
