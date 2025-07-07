@@ -984,7 +984,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
         if training_days >= 1:
             if goal == "Hypertrophy":
                 if gender == "Male":
-                    plan["Day 1 – Full Body A"] = [
+                    plan["Day 1 – Full Body "] = [
                         create_exercise_entry("Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Bench Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Lat Pulldown", get_sets_reps(goal, experience, "compound")),
@@ -994,7 +994,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Wrist Curls", "2x15")  # Accessory for forearms
                     ]
                 else:  # Female
-                    plan["Day 1 – Full Body A"] = [
+                    plan["Day 1 – Full Body "] = [
                         create_exercise_entry("Hip Thrust", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Goblet Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Dumbbell Shoulder Press", get_sets_reps(goal, experience, "compound")),
@@ -1005,7 +1005,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                     ]
             else:  # Strength or Powerbuilding
                 if gender == "Male":
-                    plan["Day 1 – Full Body A"] = [
+                    plan["Day 1 – Full Body "] = [
                         create_exercise_entry("Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Bench Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Barbell Row", get_sets_reps(goal, experience, "compound")),
@@ -1015,7 +1015,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Wrist Curls", "2x12")  # Accessory for forearms
                     ]
                 else:  # Female
-                    plan["Day 1 – Full Body A"] = [
+                    plan["Day 1 – Full Body "] = [
                         create_exercise_entry("Barbell Hip Thrust", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Dumbbell Bench Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Dumbbell Row", get_sets_reps(goal, experience, "compound")),
@@ -1026,7 +1026,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
         if training_days >= 2:
             if goal == "Hypertrophy":
                 if gender == "Male":
-                    plan["Day 2 – Full Body B"] = [
+                    plan["Day 2 – Full Body "] = [
                         create_exercise_entry("Romanian Deadlift", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Incline Dumbbell Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Seated Row", get_sets_reps(goal, experience, "compound")),
@@ -1036,7 +1036,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Light Cardio (e.g., Cycling)", "20 min")  # Accessory for balance
                     ]
                 else:  # Female
-                    plan["Day 2 – Full Body B"] = [
+                    plan["Day 2 – Full Body "] = [
                         create_exercise_entry("Bulgarian Split Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Cable Pull-through", "2x10-12"),  # Reduced to 2 sets
                         create_exercise_entry("Lat Pulldown", get_sets_reps(goal, experience, "compound")),
@@ -1046,7 +1046,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                     ]
             else:  # Strength or Powerbuilding
                 if gender == "Male":
-                    plan["Day 2 – Full Body B"] = [
+                    plan["Day 2 – Full Body "] = [
                         create_exercise_entry("Deadlift", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Overhead Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Chest Fly", "2x10-12"),  # Reduced to 2 sets
@@ -1055,7 +1055,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Light Cardio (e.g., Cycling)", "20 min")  # Accessory for balance
                     ]
                 else:  # Female
-                    plan["Day 2 – Full Body B"] = [
+                    plan["Day 2 – Full Body "] = [
                         create_exercise_entry("Trap Bar Deadlift", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Overhead Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Lat Pulldown", get_sets_reps(goal, experience, "compound")),
@@ -1066,7 +1066,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
         if training_days == 3:
             if goal == "Hypertrophy":
                 if gender == "Male":
-                    plan["Day 3 – Full Body C"] = [
+                    plan["Day 3 – Full Body "] = [
                         create_exercise_entry("Leg Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Chest Fly (Machine or Cable)", "2x10-12"),  # Reduced to 2 sets
                         create_exercise_entry("Pull-ups (Assisted)", get_sets_reps(goal, experience, "compound")),
@@ -1076,7 +1076,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Shrugs", "2x15")  # Accessory for traps
                     ]
                 else:  # Female
-                    plan["Day 3 – Full Body C"] = [
+                    plan["Day 3 – Full Body "] = [
                         create_exercise_entry("Goblet Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Incline Dumbbell Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Seated Row", get_sets_reps(goal, experience, "compound")),
@@ -1086,7 +1086,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                     ]
             else:  # Strength or Powerbuilding
                 if gender == "Male":
-                    plan["Day 3 – Full Body C"] = [
+                    plan["Day 3 – Full Body "] = [
                         create_exercise_entry("Front Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Incline DB Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Row Machine", get_sets_reps(goal, experience, "compound")),
@@ -1095,7 +1095,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                         create_exercise_entry("Shrugs", "2x12")  # Accessory for traps
                     ]
                 else:  # Female
-                    plan["Day 3 – Full Body C"] = [
+                    plan["Day 3 – Full Body "] = [
                         create_exercise_entry("Goblet Squat", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Incline Dumbbell Press", get_sets_reps(goal, experience, "compound")),
                         create_exercise_entry("Seated Row", get_sets_reps(goal, experience, "compound")),
@@ -1383,7 +1383,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
             ]
         else:
             # Default to PPL
-            plan["Day 1 – Push A"] = [
+            plan["Day 1 – Push"] = [
                 create_exercise_entry("Incline Dumbbell Press", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Incline Machine Chest Press", "2x8-10"),  # Reduced to 2 sets
                 create_exercise_entry("Pec Deck (or Cable Fly)", "2x10-12"),  # Reduced to 2 sets
@@ -1392,7 +1392,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                 create_exercise_entry("Overhead Triceps Extensions", "2x10-12"),  # Reduced to 2 sets
                 create_exercise_entry("Triceps Pushdowns", "2x10-12")  # Reduced to 2 sets
             ]
-            plan["Day 2 – Pull A"] = [
+            plan["Day 2 – Pull"] = [
                 create_exercise_entry("Barbell Row", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Lat Pulldown", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Seated Row", "2x8-10"),  # Reduced to 2 sets
@@ -1401,7 +1401,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                 create_exercise_entry("Straight Bar Cable Curls", "2x10-12"),  # Reduced to 2 sets
                 create_exercise_entry("Dumbbell Hammer Curls", "2x10-12")  # Reduced to 2 sets
             ]
-            plan["Day 3 – Legs A"] = [
+            plan["Day 3 – Legs"] = [
                 create_exercise_entry("Squats", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Leg Press", "2x8-10"),  # Reduced to 2 sets
                 create_exercise_entry("Walking Lunges", "2x8-10"),  # Reduced to 2 sets
@@ -1410,7 +1410,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                 create_exercise_entry("Calf Raises", "2x10-12"),  # Reduced to 2 sets
                 create_exercise_entry("Light Cardio (e.g., Cycling)", "20 min")  # Accessory for balance
             ]
-            plan["Day 4 – Push B"] = [
+            plan["Day 4 – Push"] = [
                 create_exercise_entry("Weighted Dips", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Dumbbell Shoulder Press", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Cable Lateral Raises", "2x10-12"),  # Reduced to 2 sets
@@ -1419,7 +1419,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                 create_exercise_entry("Triceps Pushdowns", "2x10-12"),  # Reduced to 2 sets
                 create_exercise_entry("Overhead Triceps Extensions", "2x10-12")  # Reduced to 2 sets
             ]
-            plan["Day 5 – Pull B"] = [
+            plan["Day 5 – Pull "] = [
                 create_exercise_entry("Weighted Pull-ups", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("T Bar Row", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Lat Pulldown", "2x8-10"),  # Reduced to 2 sets
@@ -1428,7 +1428,7 @@ def generate_custom_plan(goal, experience, training_days, gender, split_preferen
                 create_exercise_entry("Incline Curls (or Rope Curls)", "2x10-12"),  # Reduced to 2 sets
                 create_exercise_entry("EZ Bar Curls", "2x10-12")  # Reduced to 2 sets
             ]
-            plan["Day 6 – Legs B"] = [
+            plan["Day 6 – Legs"] = [
                 create_exercise_entry("Stiff Leg Deadlifts", get_sets_reps(goal, experience, "compound")),
                 create_exercise_entry("Hack Squats", "2x8-10"),  # Reduced to 2 sets
                 create_exercise_entry("Hamstring Curls", "2x10-12"),  # Reduced to 2 sets
