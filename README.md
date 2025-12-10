@@ -1,8 +1,8 @@
-# IK Fit 🏋️‍♂️
+# IK Fit 
 
 IK Fit is a powerful, clean, and intelligent fitness app that generates customized weekly training plans based on your goals, gender, experience level, and preferred number of training days.
 
-Built with ❤️ using [Streamlit](httpsstreamlit.io), this app is ideal for
+Built using [Streamlit](httpsstreamlit.io), this app is ideal for
 - Hypertrophy & muscle building
 - Strength training
 - Powerbuilding
@@ -11,7 +11,7 @@ Built with ❤️ using [Streamlit](httpsstreamlit.io), this app is ideal for
 
 ---
 
-## 🚀 Features
+ Features
 
 - Personalized training plans from 1 to 7 daysweek
 - Support for running, lifting, powerbuilding, and street workout goals
@@ -22,10 +22,9 @@ Built with ❤️ using [Streamlit](httpsstreamlit.io), this app is ideal for
 
 ---
 
-## 📦 How to Run Locally
+ How to Run Locally
 
 ```bash
-git clone httpsgithub.comyourusernameik-fit-app.git
-cd ik-fit-app
+
 pip install -r requirements.txt
 streamlit run gym.py
